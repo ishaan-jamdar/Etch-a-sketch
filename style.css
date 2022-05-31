@@ -1,34 +1,33 @@
 body {
+  background-color: beige;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
 }
 
 .header {
+  font-size: x-large;
   display: flex;
   justify-content: center;
 }
 
-h2 {
-  color: white;
+.content {
+  display: flex;
+  justify-content: center;
 }
 
 .canvas {
-  display: flex;
-  justify-content: center;
-}
-
-.container {
-  max-height: 512px;
-  max-width: 512px;
-  border: 4px gray solid;
-  display: flex;
-  flex-wrap: wrap;
-  flex-shrink: 1;
+  height: 512px;
+  width: 512px;
+  background-color: white;
+  box-shadow: 0px 3px 8px;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
 }
 
 .grid-square {
   height: 32px;
   width: 32px;
-  flex-shrink: 1;
-  background-color: white;
+}
+
+.hovered {
+  background-color: black;
 }
