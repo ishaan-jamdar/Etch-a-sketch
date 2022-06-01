@@ -11,7 +11,7 @@ function createCanvas(size) {
     canvas.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
   
     square.addEventListener('mouseenter', () => {
-      square.classList.add('hovered');
+      square.style.backgroundColor = 'black';
     });
   
     container.appendChild(square);

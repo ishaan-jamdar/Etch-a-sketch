@@ -47,7 +47,3 @@ input[type=range]::-webkit-slider-runnable-track {
   border-radius: 32px;
   box-shadow: 0px 1px 3px;
 }
-
-.hovered {
-  background-color: black;
-}
