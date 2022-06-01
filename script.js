@@ -14,6 +14,7 @@ function createCanvas(size) {
       square.style.backgroundColor = 'black';
     });
 
+    // eraser feature
     square.addEventListener('click', () => {
       square.style.backgroundColor = '';
     });
