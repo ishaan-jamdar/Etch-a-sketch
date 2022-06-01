@@ -13,6 +13,10 @@ function createCanvas(size) {
     square.addEventListener('mouseenter', () => {
       square.style.backgroundColor = 'black';
     });
+
+    square.addEventListener('click', () => {
+      square.style.backgroundColor = '';
+    });
   
     container.appendChild(square);
   }
